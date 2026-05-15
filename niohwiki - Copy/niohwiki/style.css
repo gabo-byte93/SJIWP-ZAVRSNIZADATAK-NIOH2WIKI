@@ -1,0 +1,275 @@
+body {
+    text-align: center;
+    font-family: monospace;
+    background-image: url(pozadina.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+}
+
+.overlay {
+    background-color: rgba(65, 65, 65, 0.5);
+    padding: 20px;
+    max-width: 1500px;
+    margin: 0 auto;
+    border-top: 2px solid goldenrod;
+    border-left: 1px solid rgb(80, 80, 80);
+    border-right: 1px solid rgb(80, 80, 80);
+    border-bottom: 1px solid rgb(80, 80, 80);
+}
+
+.overlay2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 1470px;
+    margin: 0 auto;
+    border-top: 2px solid goldenrod;
+    border-left: 1px solid rgb(80, 80, 80);
+    border-right: 1px solid rgb(80, 80, 80);
+    border-bottom: 1px solid rgb(80, 80, 80);
+    padding: 20px;
+}
+
+
+.overlay3 {
+    max-width: 880px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    border-top: 2px solid darkred;
+    border-left: 1px solid rgb(80, 80, 80);
+    border-right: 1px solid rgb(80, 80, 80);
+    border-bottom: 1px solid rgb(80, 80, 80);
+    font-size: 16px;
+    padding: 12px;
+    margin-bottom: 15px;
+
+}
+
+h1 {
+    font-size: 40px;
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 29px;
+}
+
+h4 {
+    color: darkgray;
+}
+
+ul {
+    text-align: left;
+    display: inline-block;
+    font-size: 11px;
+    gap: 12px;
+    margin: 0 auto;
+}
+
+li {
+    margin-bottom: 8px;
+}
+.okvir {
+    max-width: 1300px;
+    background: none;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    border-radius: 16px;
+    margin-bottom: 14px;
+}
+
+.okvir2 {
+    max-width: 1200px;
+    background: transparent;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    border-radius: 16px;
+    margin-bottom: 14px;
+}
+
+.okvir3 {
+    max-width: 1000px;
+    background: transparent;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    border-radius: 16px;
+    margin-bottom: 14px;
+}
+
+.first {
+    min-width: 500px;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+
+.second {
+    min-width: 250px;
+    max-width: 250px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+
+.video {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.video2 {
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+.okvir4 {
+    max-width: 1500px;
+    background: transparent;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 16px;
+    margin-bottom: 14px;
+    display: flex;
+}
+
+.okvir5 {
+    max-width: 1700px;
+    background: transparent;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 16px;
+    margin-bottom: 14px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.dlc {
+    max-width: 425px;
+    background: overlay;
+    border-top: 2px solid darkred;
+    border-left: 1px solid rgb(80, 80, 80);
+    border-right: 1px solid rgb(80, 80, 80);
+    border-bottom: 1px solid rgb(80, 80, 80);
+    padding: 16px;
+    margin-bottom: 14px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.osnove1 {
+    max-width: 650px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    border-radius: 16px;
+    box-shadow: 14px, 20px, black;
+    font-size: 16px;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.osnove2 {
+    max-width: 650px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    border-radius: 16px;
+    box-shadow: 14px, 20px, black;
+    font-size: 16px;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.tablica {
+    max-width: 500px;
+    background: transparent;
+    padding: 16px;
+    margin-bottom: 14px;
+    margin: 0 auto;
+    border: 2px solid darkgray;
+}
+
+.bum {
+    border: 1px solid darkred;
+    width: 260px;
+}
+
+.bam {
+    border: 1px solid goldenrod;
+    width: 645px;
+}
+
+
+.prvi {
+    border: 2px solid goldenrod;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 900px;
+}
+
+.drugi {
+    border: 2px solid goldenrod;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1400px;
+}
+
+.treci {
+    border: goldenrod 2px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1465px;
+}
+
+p {
+    color: darkgray
+}
+
+li {
+    color: darkgray;
+}
+
+.biggg {
+    font-size: 30px;
+    color: darkred;
+}
+
+button {
+    font-size: 35px;
+    padding: 20px;
+    background-color: rgb(209, 209, 209);
+    color: darkred;
+    border-radius: 10px;
+    border: 1px solid darkgray;
+    font-weight: bold;
+}
+
+.bascool {
+    max-width: 650px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    border-radius: 16px;
+    box-shadow: 14px, 20px, black;
+    font-size: 16px;
+    padding: 12px;
+    margin-top: 80px;
+    margin-bottom: 15px;
+}
+
+.bimba {
+    border: 1px solid goldenrod;
+    width: 420px;
+}

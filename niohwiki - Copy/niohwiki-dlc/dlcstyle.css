@@ -1,0 +1,360 @@
+body {
+    text-align: center;
+    font-family: monospace;
+    background-image: url(pozadina.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    color: darkgray;
+}
+
+.overlay {
+    background-color: rgba(65, 65, 65, 0.5);
+    padding: 20px;
+    max-width: 86%;
+    margin: 0 auto;
+    border-top: 2px solid goldenrod;
+    border-left: 1px solid rgb(80, 80, 80);
+    border-right: 1px solid rgb(80, 80, 80);
+    border-bottom: 1px solid rgb(80, 80, 80);
+    box-shadow:
+        0 0 10px rgba(255, 200, 50, 0.5),
+        0 0 25px rgba(255, 180, 0, 0.3),
+        inset 0 0 8px rgba(255,255,255,0.3);
+}
+
+.overlay2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 97%;
+    margin: 0 auto;
+    border-top: 2px solid goldenrod;
+    border-left: 1px solid rgb(80, 80, 80);
+    border-right: 1px solid rgb(80, 80, 80);
+    border-bottom: 1px solid rgb(80, 80, 80);
+    padding: 20px;
+}
+
+.pocetak{
+    text-align:left;
+    margin-bottom: 40px;
+    padding: 18px;
+}
+
+.romp{
+    display: flex;
+    gap: 80%;
+}
+
+.nekaj{
+    max-width: 60%;
+    text-align: left;
+    padding: 18px;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+h1{
+    font-size: 35px;
+    color: white;
+}
+
+h3{
+    font-size: 23px;
+    color:white;
+}
+
+.bum {
+    border: 1px solid darkred;
+    width: 60%;
+        box-shadow:
+        0 0 10px rgba(255, 81, 50, 0.5),
+        0 0 25px rgba(255, 8, 0, 0.3),
+        inset 0 0 8px rgba(255,255,255,0.3);
+}
+
+.bam {
+    border: 1px solid goldenrod;
+    width: 90%;
+        box-shadow:
+        0 0 10px rgba(255, 200, 50, 0.5),
+        0 0 25px rgba(255, 180, 0, 0.3),
+        inset 0 0 8px rgba(255,255,255,0.3);
+}
+
+.slikica{
+    width: 6%;
+}
+.bomb {
+    border: 1px solid goldenrod;
+    width: 100%;
+    box-shadow:
+        0 0 10px rgba(255, 200, 50, 0.5),
+        0 0 25px rgba(255, 180, 0, 0.3),
+        inset 0 0 8px rgba(255,255,255,0.3);
+}
+
+.slika{
+    width: 100%;
+}
+
+.dlc {
+    width: 90%;
+    max-width: 500px;
+    background: overlay;
+    border-top: 2px solid darkred;
+    border-left: 1px solid rgb(80, 80, 80);
+    border-right: 1px solid rgb(80, 80, 80);
+    border-bottom: 1px solid rgb(80, 80, 80);
+    padding: 16px;
+    margin-bottom: 14px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 18px;
+    min-width: 0;
+}
+
+.okvirdlc {
+    max-width: 100%;
+    background: transparent;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 16px;
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 20px;
+}
+
+.okvirspecial{
+    max-width: 100%;
+    background: transparent;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 16px;
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-self: center;
+    gap: 150px;
+}
+
+.special{
+    max-width: 500px;
+    width: 90%;
+    background: overlay;
+    border-top: 2px solid darkred;
+    border-left: 1px solid rgb(80, 80, 80);
+    border-right: 1px solid rgb(80, 80, 80);
+    border-bottom: 1px solid rgb(80, 80, 80);
+    padding: 16px;
+    margin-bottom: 14px;
+    margin: 0 auto;
+    font-size: 22px;
+    text-align: left;
+    min-width: 0;
+}
+
+.jedan{
+    max-width: 80%;
+    background: transparent;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    border-radius: 16px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.jedan img{
+    width: 32%;
+}
+
+.dva{
+    text-align: left;
+    padding: 18px;
+    font-size: 20px;
+    flex: 1;
+    min-width: 300px;
+    color: darkgray;
+}
+
+.gumb{
+    background: linear-gradient(145deg, #d4a017, #f5c542);
+    color: #111;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 18px 40px;
+    border: 2px solid #ffcc33;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    cursor: pointer;
+    display:inline-block;
+    text-decoration:none;
+    box-shadow:
+        0 0 10px rgba(255, 200, 50, 0.5),
+        0 0 25px rgba(255, 180, 0, 0.3),
+        inset 0 0 8px rgba(255,255,255,0.3);
+    transition: all 0.25s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    max-width: 90%;
+}
+
+.gumb:hover{
+    transform: translateY(-3px) scale(1.03);
+
+    box-shadow:
+        0 0 15px rgba(255, 220, 100, 0.8),
+        0 0 35px rgba(255, 180, 0, 0.6),
+        inset 0 0 10px rgba(255,255,255,0.4);
+
+    background: linear-gradient(145deg, #f5c542, #ffdb58);
+}
+
+.gumb:active {
+    transform: scale(0.98);
+}
+
+.ljevo{
+    text-align:left;
+    font-size: 18px;
+    padding: 30px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px){
+
+    .overlay{
+        max-width: 100%;
+    }
+
+    .romp{
+        flex-direction: column;
+    }
+
+    .slika{
+        min-width: 100%;
+    }
+
+    .slikica{
+        width: 65%;
+        align-self: center;
+    }
+
+    .overlay2{
+        max-width: 100%;
+    }
+
+    h1{
+        font-size:28px;
+        text-align:center;
+    }
+    
+    .bam{
+        max-width: 100%;
+    }
+
+    .bum{
+        width: 310px;
+    }
+
+    .pocetak{
+        max-width: 100%;
+    }
+
+    .nekaj{
+        max-width: 100%;
+    }
+
+    .jedan{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        max-width: 100%;
+    }
+
+    .dva{
+        min-width:100%;
+    }
+
+    .gumb{
+        font-size:20px;
+        padding:14px 24px;
+    }
+
+    p, li{
+        font-size: 14px;
+    }
+
+    .okvirdlc{
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .dlc{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .dlc h3{
+        font-size: 20px;
+    }
+
+    .dlc p{
+        font-size: 16px;
+    }
+
+    .dlc li{
+        font-size: 16px;
+    }
+
+    .okvirspecial{
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .special{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .special h3{
+        font-size: 20px;
+    }
+
+    .special p{
+        font-size: 16px;
+    }
+
+    .special li{
+        font-size: 16px;
+    }
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+body{
+    overflow-x:hidden;
+}

@@ -1,0 +1,134 @@
+body {
+    text-align: center;
+    font-family: monospace;
+    background-image: url(pozadina.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    color: darkgray;
+}
+
+.overlay {
+    background-color: rgba(65, 65, 65, 0.5);
+    padding: 20px;
+    max-width: 86%;
+    margin: 0 auto;
+    border-top: 2px solid goldenrod;
+    border-left: 1px solid rgb(80, 80, 80);
+    border-right: 1px solid rgb(80, 80, 80);
+    border-bottom: 1px solid rgb(80, 80, 80);
+    box-shadow:
+        0 0 10px rgba(255, 200, 50, 0.5),
+        0 0 25px rgba(255, 180, 0, 0.3),
+        inset 0 0 8px rgba(255,255,255,0.3);
+}
+
+.overlay2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 97%;
+    margin: 0 auto;
+    border-top: 2px solid goldenrod;
+    border-left: 1px solid rgb(80, 80, 80);
+    border-right: 1px solid rgb(80, 80, 80);
+    border-bottom: 1px solid rgb(80, 80, 80);
+    padding: 20px;
+}
+
+.okvir{
+    max-width: 70%;
+    background: transparent;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 16px;
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.kartica{
+    width: 90%;
+    max-width: 500px;
+    background: overlay;
+    border-top: 2px solid darkred;
+    border-left: 1px solid rgb(80, 80, 80);
+    border-right: 1px solid rgb(80, 80, 80);
+    border-bottom: 1px solid rgb(80, 80, 80);
+    padding: 16px;
+    margin-bottom: 14px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    min-width: 0;
+}
+
+.lista{
+    background: overlay;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 16px;
+    border: 1px solid crimson;
+    width: 83%;
+        box-shadow:
+        0 0 10px rgba(194, 22, 22, 0.5),
+        0 0 25px rgba(194, 22, 22, 0.3),
+        inset 0 0 8px rgba(255,255,255,0.3);
+}
+
+.line {
+    border: 1px solid goldenrod;
+    width: 70%;
+        box-shadow:
+        0 0 10px rgba(255, 200, 50, 0.5),
+        0 0 25px rgba(255, 180, 0, 0.3),
+        inset 0 0 8px rgba(255,255,255,0.3);
+}
+
+.bam{
+    border: 1px solid goldenrod;
+    width: 100%;
+        box-shadow:
+        0 0 10px rgba(255, 200, 50, 0.5),
+        0 0 25px rgba(255, 180, 0, 0.3),
+        inset 0 0 8px rgba(255,255,255,0.3);
+}
+
+.tablica {
+    margin: 0 auto;
+    margin-top: 80px;
+    border-collapse: collapse;
+    width: 90%;
+    background: overlay;
+    border-top: 2px solid goldenrod;
+    border-left: 1px solid rgb(80, 80, 80);
+    border-right: 1px solid rgb(80, 80, 80);
+    border-bottom: 1px solid rgb(80, 80, 80);
+}
+
+.tablica td {
+  padding: 15px;
+  vertical-align: top;
+}
+
+.karta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.karta img {
+  width: 90%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.boss {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
